@@ -18,8 +18,9 @@ CS299 Spr 2021 Final Project: Multi-view convolutional neural networks applied t
   -   ```Tester.py``` : new script to easily pass in one or multiple images into SVCNN or MVCNN models after training
 
 ### Downloading ModelNet40 Dataset
-
 - Download images and put it under ```modelnet40_images_new_12x```: [Shaded Images (1.6GB)](http://supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz)  
+
+### Training and Testing
 - Command for training: 
     - ModelNet40: ```python train_mvcnn.py -name mvcnn -num_models 10 -num_classes 15 -num_epochs 10 -weight_decay 0.001 -num_views 12 -cnn_name vgg11 -dataset_name modelnet40 -experiment_name modelnet40_vgg11_max```
     - iPhone dataset (not included): ```python train_mvcnn.py -name mvcnn -num_models 2 -num_classes 15 -num_epochs 10 -weight_decay 0.001 -num_views 24 -cnn_name vgg11 -dataset_name iphone -experiment_name iphone_vgg11_max```
