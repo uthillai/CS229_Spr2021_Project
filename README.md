@@ -36,6 +36,8 @@ Notes:
 - test_network: mvcnn or svcnn
 - num_views: 1 or 2 or 4, 8, etc.
 
+### ModelNet40 Models
+If you would like to download a trained model, please visit my Box link https://stanford.box.com/s/2h6pnvbdyzck3ppwnlbryhae8oim8rxt which has the stage 1 and stage 2 models for training using VGG-11 with max pooling.
 
 
 ## References
