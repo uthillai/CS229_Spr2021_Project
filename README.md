@@ -11,7 +11,7 @@ CS299 Spr 2021 Final Project: Multi-view convolutional neural networks applied t
 - ```test_mvcnn.py``` : used to test SVCNN (Stage 1) and MVCNN (Stage 2) models
 - models (folder)
   -   ```Model.py``` : defines the ```Model``` class
-  -   ```MVCNN.py``` : 
+  -   ```MVCNN.py``` : defines model for stage 1 and stage 2
 - tools (folder)
   -   ```ImgDataset.py``` : Loads the single view and multiview datasets, labels, and augments, resizes and normalizes the data for training and testing.
   -   ```Trainer.py``` : used to train and log each epoch of training, and also calculate and update validation accuracies throughout training
